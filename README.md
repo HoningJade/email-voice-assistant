@@ -1,6 +1,8 @@
 # email-voice-assistant
 Awesome web voice assistant for email. Course project of EECS 498-006 FA21@umich
 
+<img width="777" alt="image" src="https://user-images.githubusercontent.com/49838100/144513923-e075a8e6-ab95-4502-b086-1761dc58ad24.png">
+
 # Run
 ```
 $ python bin/run_all.py

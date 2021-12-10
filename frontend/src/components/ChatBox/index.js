@@ -149,6 +149,28 @@ const ChatBox = () => {
     trans = trans.replace("rat","read");
     trans = trans.replace("female", "email");
     trans = trans.replace("hungry", "Hangrui");
+    trans = trans.replace("henry", "Hangrui")
+    trans = trans.replace("hungray", "Hangrui")
+    trans = trans.replace("Mass", "math")
+    trans = trans.replace("Caillou", "Can you")
+    trans = trans.replace("nearest", "next")
+    trans = trans.replace("Starburst", "star this email")
+    trans = trans.replace("nest","next")
+    trans = trans.replace("stop", "star")
+    trans = trans.replace("Start", "Star")
+    trans = trans.replace("Stop", "Star")
+    trans = trans.replace("mass", "math")
+    trans = trans.replace("nasty", "next")
+    trans = trans.replace("Sorry", "Star")
+    trans = trans.replace("positioning", "position")
+    trans = trans.replace("mass", "math")
+    trans = trans.replace("publishing", "position")
+    trans = trans.replace("style","star")
+    trans = trans.replace("Not","mark")
+    
+
+
+
     var msgArr = [...msg.slice(0,-1), trans];
     setMsg(msgArr);
     await axios.get('/response/',{
